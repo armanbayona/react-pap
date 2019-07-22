@@ -9,7 +9,7 @@ class Header extends Component {
             <img src="img/boat-o.svg" alt="logo" />
           </li>
           <li>
-           <a className="current" id="dive">Dive</a>
+           <button className="current" id="dive" onClick={this.props.shoot}>Dive</button>
           </li>
         </ul>
       </div>
